@@ -1,0 +1,31 @@
+[project]
+name = "py-toga"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "toga>=0.4.9",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.9.6",
+    "taskipy>=1.14.1",
+]
+
+[tool.ruff]
+line-length = 79
+extend-exclude = [
+    ".venv",
+    "docs",
+]
+
+[tool.ruff.lint]
+select = ["I", "F", "E", "W", "PL", "PT"]
+
+[tool.ruff.format]
+quote-style = "single"
+
+[tool.taskipy.tasks]
+format = "ruff check . --select I --fix && ruff format ."
