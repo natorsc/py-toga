@@ -56,11 +56,35 @@ https://github.com/sponsors/natorsc/
 
 - [Code](./src/button/main.py).
 
+### toga.ConfirmDialog
+
+![toga.ConfirmDialog](./docs/images/widgets/confirm-dialog.png "toga.ConfirmDialog")
+
+- [Code](./src/confirm-dialog/main.py).
+
+### toga.ErrorDialog
+
+![toga.ErrorDialog](./docs/images/widgets/error-dialog.png "toga.ErrorDialog")
+
+- [Code](./src/error-dialog/main.py).
+
+### toga.InfoDialog
+
+![toga.InfoDialog](./docs/images/widgets/info-dialog.png "toga.InfoDialog")
+
+- [Code](./src/info-dialog/main.py).
+
 ### toga.MainWindow
 
 ![toga.MainWindow](./docs/images/widgets/main-window.png "toga.MainWindow")
 
 - [Code](./src/main-window/main.py).
+
+### toga.OpenFileDialog
+
+![toga.OpenFileDialog](./docs/images/widgets/open-file-dialog.png "toga.OpenFileDialog")
+
+- [Code](./src/open-file-dialog/main.py).
 
 ### toga.OptionContainer
 
@@ -68,17 +92,41 @@ https://github.com/sponsors/natorsc/
 
 - [Code](./src/option-container/main.py).
 
+### toga.QuestionDialog
+
+![toga.QuestionDialog](./docs/images/widgets/question-dialog.png "toga.QuestionDialog")
+
+- [Code](./src/question-dialog/main.py).
+
+### toga.SaveFileDialog
+
+![toga.SaveFileDialog](./docs/images/widgets/save-file-dialog.png "toga.SaveFileDialog")
+
+- [Code](./src/save-file-dialog/main.py).
+
 ### toga.ScrollContainer
 
 ![toga.ScrollContainer](./docs/images/widgets/scroll-container.png "toga.ScrollContainer")
 
 - [Code](./src/scroll-container/main.py).
 
+### toga.SelectFolderDialog
+
+![toga.SelectFolderDialog](./docs/images/widgets/select-folder-dialog.png "toga.SelectFolderDialog")
+
+- [Code](./src/select-folder-dialog/main.py).
+
 ### toga.SplitContainer
 
 ![toga.SplitContainer](./docs/images/widgets/split-container.png "toga.SplitContainer")
 
 - [Code](./src/split-container/main.py).
+
+### toga.StackTraceDialog
+
+![toga.StackTraceDialog](./docs/images/widgets/stack-trace-dialog.png "toga.StackTraceDialog")
+
+- [Code](./src/stack-trace-dialog/main.py).
 
 ### toga.Window
 
